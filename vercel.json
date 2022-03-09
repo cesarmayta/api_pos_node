@@ -17,7 +17,7 @@
         },
         {
             "src":"/categorias(.*)",
-            "dest":"/categorias/"
+            "dest":"/"
         }
     ]
 }
