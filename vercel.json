@@ -4,28 +4,12 @@
         {
             "src":"./index.js",
             "use":"@vercel/node"
-        },
-        {
-            "src":"categorias/index.js",
-            "use":"@vercel/node"
-        },
-        {
-            "src":"mesas/index.js",
-            "use":"@vercel/node"
         }
     ],
-    "routes":[
+    "routes": [
         {
-            "src":"/api(.*)",
-            "dest":"/index.js"
-        },
-        {
-            "src":"/categorias(.*)",
-            "dest":"/categorias/index.js"
-        },
-        {
-            "src":"/mesas(.*)",
-            "dest":"/mesas/index.js"
+            "src":"/(.*)",
+            "dest":"/"
         }
     ]
 }
