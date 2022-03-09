@@ -16,8 +16,8 @@
             "dest":"/"
         },
         {
-            "src":"/api(.*)",
-            "dest":"/categorias"
+            "src":"/categorias(.*)",
+            "dest":"/categorias/"
         }
     ]
 }
